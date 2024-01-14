@@ -19,7 +19,7 @@ function toggleTheme() {
 
 function setDark() {
   particles.style.backgroundColor = "#000";
-  particles.style.backgroundImage = "url('assets/images/moon.webp')";
+  particles.style.backgroundImage = "url('assets/images/moon.gif')";
 }
 
 function setLight() {
