@@ -1,5 +1,8 @@
 body {
-  background-color: red;
+  background-color: rgb(0, 0, 0);
+  background-image: url(../images/universe-bg.webp);
+  background-position-x: center;
+  background-attachment: fixed;
 }
 header {
   position: fixed;
@@ -110,6 +113,11 @@ canvas {
   max-height: 85vh;
 }
 
+main {
+  background-color: #090711;
+  color: rgb(225, 225, 225);
+}
+
 #hero{
   height: 85vh;
   width: 100%;
@@ -118,6 +126,13 @@ canvas {
   background-repeat: no-repeat; 
   background-size: contain; 
   background-position: right -10% center; 
+}
+
+#me {
+  position: relative;
+  z-index: 9999;
+  width: 340px;
+  margin: auto;
 }
 
 @media (max-width: 769px) {
@@ -139,10 +154,47 @@ canvas {
 }
 
 .social-links {
-  max-width: 342px;
+  width: 100%;
   list-style-type: none;
 }
 
-.social-links * {
-  z-index: 9999;
+#tech-icons i{
+  font-size: 6rem;
+}
+
+.timeline-with-icons {
+  border-left: 1px solid hsl(281, 100%, 74%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline-with-icons .timeline-item {
+  position: relative;
+}
+
+.timeline-with-icons .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline-with-icons .timeline-icon {
+  position: absolute;
+  left: -48px;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(288, 100%, 98%);
+  border-radius: 50%;
+  height: 31px;
+  width: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form-control {
+  background-color: #45505b;
+}
+
+.text-muted-dark {
+  color: #ffffff82;
 }
