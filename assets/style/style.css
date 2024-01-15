@@ -1,5 +1,8 @@
 body {
-  background-color: rgb(78, 78, 78);
+  background-color: rgb(0, 0, 0);
+  background-image: url(../images/universe-bg.webp);
+  background-position-x: center;
+  background-attachment: fixed;
 }
 header {
   position: fixed;
@@ -110,6 +113,11 @@ canvas {
   max-height: 85vh;
 }
 
+main {
+  background-color: #090711;
+  color: rgb(225, 225, 225);
+}
+
 #hero{
   height: 85vh;
   width: 100%;
@@ -148,6 +156,10 @@ canvas {
 .social-links {
   width: 100%;
   list-style-type: none;
+}
+
+#tech-icons i{
+  font-size: 6rem;
 }
 
 .timeline-with-icons {
