@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: rgb(78, 78, 78);
 }
 header {
   position: fixed;
@@ -177,4 +177,8 @@ canvas {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+form-control {
+  background-color: #45505b;
 }
