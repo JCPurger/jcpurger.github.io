@@ -120,6 +120,13 @@ canvas {
   background-position: right -10% center; 
 }
 
+#me {
+  position: relative;
+  z-index: 9999;
+  width: 340px;
+  margin: auto;
+}
+
 @media (max-width: 769px) {
   #hero{
     height: 75vh;
@@ -139,12 +146,8 @@ canvas {
 }
 
 .social-links {
-  max-width: 342px;
+  width: 100%;
   list-style-type: none;
-}
-
-.social-links * {
-  z-index: 9999;
 }
 
 .timeline-with-icons {
